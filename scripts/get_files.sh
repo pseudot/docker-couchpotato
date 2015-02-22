@@ -28,4 +28,4 @@ if [ -d "$LOC2/couchpotato" ]; then
   rm -rf $LOC2/couchpotato
 fi
 mkdir $LOC2/couchpotato
-git clone https://github.com/RuudBurger/CouchPotatoServer.git  $LOC2/couchpotato
+git clone -b master https://github.com/RuudBurger/CouchPotatoServer.git  $LOC2/couchpotato
